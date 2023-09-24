@@ -1,0 +1,31 @@
+.Card {
+  width: 100%;
+  background-color: var(--clr-white);
+  padding: 1rem;
+  --border-radius: 1.5625rem;
+  border-radius: var(--border-radius);
+
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+
+  &-img {
+    border-radius: 0.9375rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &-h1 {
+    font-size: var(--fs-heading);
+    font-weight: 700;
+    color: var(--clr-dark-navy);
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+  }
+
+  &-p {
+    font-size: var(--fs-body);
+    color: var(--clr-grey);
+    text-align: center;
+    margin-bottom: 1.875rem;
+  }
+}
